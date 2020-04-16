@@ -1,10 +1,13 @@
-#Header {
+.element {
     border: 8px solid black;
-    width: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
     border-radius: 25px;
+}
+
+#Header {
+    width: 500px;
     box-shadow: 7px 7px;
     opacity: 0.8;
 }
@@ -14,17 +17,12 @@
     font-family: "Passion One";
     color: #FFBC00;
     font-weight: bold;
-    border-radius: 25px;
     animation-name: anAnimation;
     animation-duration: 5s;
 }
 
 #LeftNav {
-    border: 8px solid black;
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
     float: left;
     padding-bottom: 8px;
     border-radius: 25px;
@@ -33,19 +31,12 @@
 }
 
 #Content {
-    border: 8px solid black;
     width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
     padding: 15px;
-    border-radius: 25px;
     box-shadow: 7px 7px;
 }
 
 #Footer {
-    border: 8px solid black;
-    border-radius: 25px;
     box-shadow: 10px 10px;
     opacity: 0.8;
 }
